@@ -1,2 +1,2 @@
-# Algo-
+# Algo++
 Some Algo++ problems
