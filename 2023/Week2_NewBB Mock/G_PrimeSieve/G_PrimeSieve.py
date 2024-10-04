@@ -45,4 +45,16 @@ def primeth(n: int):
             length.append(j)
     return len(length)
 
-print(primeth(1229))
+def main():
+    output = []
+    i, j = [int(x) for x in input().split()]
+
+    output.append(primeth(i))
+    for i in range(j):
+        k = int(input())
+        output.append(checker(k))
+
+    for result in output:
+        print(result)
+
+main()
